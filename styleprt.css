@@ -1,0 +1,111 @@
+body {
+    font-family: Fjalla One, Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 600;
+    color: #343a40;
+}
+
+a {
+    text-decoration: none;
+    color: #003481;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    padding: 60px 20px;
+}
+
+header img {
+    border: 5px solid #0d6efd;
+    transition: transform 0.5s ease;
+}
+
+header img:hover {
+    transform: scale(1.05);
+}
+
+#navbarNav , .navbar-brand{
+    font-weight: bold;
+    font-size: 18px;
+}
+.Skill img {
+    max-width: 100px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#home ,#aboutme,#projects ,#skills, #contact {
+    scroll-margin-top: 20px;
+}
+
+.Skill img:hover {
+    transform: scale(1.1);
+}
+
+.Skill p {
+    font-weight: 500;
+}
+
+.popup-form {
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.popup-form label {
+    font-weight: 500;
+}
+
+.popup-form button[type="submit"] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+footer img {
+    transition: filter 0.3s ease, transform 0.5s ease;
+}
+
+footer img:hover {
+    filter: none;
+    transform: scale(1.4);
+}
+
+.left-button {
+    background-color: #198754;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    margin: 10px auto;
+    display: block;
+    transition: background 0.3s;
+}
+
+.left-button:hover {
+    background-color: #157347;
+}
+
+@media (max-width: 576px) {
+    header img {
+        width: 150px !important;
+        height: auto;
+    }
+    .popup-form {
+        top: 10%;
+        padding: 15px;
+    }
+    .Skill img {
+        max-width: 80px;
+    }
+}
